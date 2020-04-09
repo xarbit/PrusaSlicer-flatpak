@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+    <id>com.prusa.PrusaSlicer</id>
+    <launchable type="desktop-id">com.prusa.PrusaSlicer.desktop</launchable>
+    <provides>
+        <id>PrusaSlicer.desktop</id>
+    </provides>
+    <name>PrusaSlicer</name>
+    <summary>Powerful 3D printing slicer optimized for Prusa printers</summary>
+    <metadata_license>0BSD</metadata_license>
+    <project_license>AGPLv3</project_license>
+    <description>
+        <p>PrusaSlicer takes 3D models (STL, OBJ, AMF) and converts them intdeo G-code instructions for FFF printers or PNG 
+        layers for mSLA 3D printers. It's compatible with any modern printer based on the RepRap toolchain, including all those based on the Marlin, Prusa, Sprinter and Repetier firmware. 
+        It also works with Mach3, LinuxCNC and Machinekit controllers.</p>
+        <p>PrusaSlicer is based on Slic3r by Alessandro Ranelucci and the RepRap community.</p>
+    </description>
+    <url type="homepage">https://www.prusa3d.com/prusaslicer/</url>
+    <url type="help">https://help.prusa3d.com</url>
+    <url type="bugtracker">https://github.com/prusa3d/PrusaSlicer/issues</url>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://user-images.githubusercontent.com/10857207/61836791-71ffa080-ae47-11e9-9011-2e6500956e26.png</image>
+        </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1" />
+    <releases>
+        <release version="2.2.0" date="2020-03-21">
+            <description>
+                <p>This is final release of PrusaSlicer 2.2.0 introducing SLA hollowing and hole drilling, support for 3rd party printer vendors, 3Dconnexion support, 
+                automatic variable layer height, macOS dark mode support, greatly improved ColorPrint feature and much, much more.
+                </br>
+                Several bugs found in the previous release candidate are fixed in this final release. See the respective change logs of the previous releases for all the 
+                new features, improvements and bugfixes in the 2.2.0 series.</p>
+            </description>
+        </release>
+  </releases>
+</component>
