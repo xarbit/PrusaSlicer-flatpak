@@ -285,7 +285,7 @@
                 "-DCMAKE_BUILD_TYPE=Release"
             ],
             "post-install": [
-                "install -Dm644 com.prusa.PrusaSlicer.metainfo.xml /app/share/metainfo/com.prusa.PrusaSlicer.appdata.xml",
+                "install -Dm644 com.prusa.PrusaSlicer.appdata.xml /app/share/metainfo/com.prusa.PrusaSlicer.appdata.xml",
         	    "install -Dm644 com.prusa.PrusaSlicer.png /app/share/icons/hicolor/128x128/apps/com.prusa.PrusaSlicer.png",
         	    "install -Dm644 com.prusa.PrusaSlicer.desktop /app/share/applications/com.prusa.PrusaSlicer.desktop"
             ],
