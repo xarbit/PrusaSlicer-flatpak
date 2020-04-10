@@ -29,7 +29,6 @@
             <description>
                 <p>This is final release of PrusaSlicer 2.2.0 introducing SLA hollowing and hole drilling, support for 3rd party printer vendors, 3Dconnexion support, 
                 automatic variable layer height, macOS dark mode support, greatly improved ColorPrint feature and much, much more.
-                </br>
                 Several bugs found in the previous release candidate are fixed in this final release. See the respective change logs of the previous releases for all the 
                 new features, improvements and bugfixes in the 2.2.0 series.</p>
             </description>
