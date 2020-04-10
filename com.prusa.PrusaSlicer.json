@@ -7,7 +7,6 @@
     "finish-args": [
         "--socket=x11",
         "--socket=fallback-x11",
-        "--socket=wayland",
         "--share=ipc",
         "--device=dri",
         "--share=network",
@@ -285,16 +284,21 @@
                 "-DSLIC3R_STATIC=OFF",
                 "-DCMAKE_BUILD_TYPE=Release"
             ],
+            "post-install": [
+                "install -Dm644 com.prusa.PrusaSlicer.metainfo.xml /app/share/appdata/com.prusa.PrusaSlicer.metainfo.xml",
+        	"install -Dm644 com.prusa.PrusaSlicer.png /app/share/icons/hicolor/128x128/apps/com.prusa.PrusaSlicer.png",
+        	"install -Dm644 com.prusa.PrusaSlicer.desktop /app/share/applications/com.prusa.PrusaSlicer.desktop"
+            ],
             "sources": [
                 {
                     "type": "file",
                     "url": "https://raw.githubusercontent.com/prusa3d/PrusaSlicer/master/resources/icons/PrusaSlicer.png",
-                    "dest-filename": "com.prusa.PrusaSlicer.icon.png",
+                    "dest-filename": "com.prusa.PrusaSlicer.png",
                     "sha256": "484cf12a856f035d8c3ee12fd404d03c3012f815fb9e8fa334c5f7e4127b905a"
                 },
                 {
                     "type": "file",
-                    "path": "com.prusa.PrusaSlicer.appdata.xml"
+                    "path": "com.prusa.PrusaSlicer.metainfo.xml"
                 },
                 {
                     "type": "file",
