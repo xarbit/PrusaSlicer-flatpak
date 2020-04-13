@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=PrusaSlicer
 GenericName=3D Printing Software
-Icon=com.prusa.PrusaSlicer
+Icon=com.prusa3d.PrusaSlicer
 Exec=prusa-slicer %F
 Terminal=false
 Type=Application
