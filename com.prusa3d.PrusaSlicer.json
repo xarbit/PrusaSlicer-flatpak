@@ -26,6 +26,7 @@
         "dependencies/eigen.json",
         "dependencies/mpfr.json",
         "dependencies/cgal.json",
+        "shared-modules/gtk2/gtk2.json",
         "dependencies/wxWidgets.json",
         {
             "name": "PrusaSlicer",
@@ -37,7 +38,7 @@
                 "-DSLIC3R_PCH=OFF",
                 "-DSLIC3R_PERL_XS=OFF",
                 "-DSLIC3R_WX_STABLE=OFF",
-                "-DSLIC3R_GTK=3",
+                "-DSLIC3R_GTK=2",
                 "-DSLIC3R_STATIC=OFF",
                 "-DSLIC3R_BUILD_SANDBOXES=OFF",
                 "-DSLIC3R_BUILD_TESTS=OFF",
