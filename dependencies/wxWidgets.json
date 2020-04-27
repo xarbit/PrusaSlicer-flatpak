@@ -5,7 +5,7 @@
         "/share/bakefile"
     ],
     "config-opts": [
-        "--with-gtk=3",
+        "--with-gtk=2",
         "--with-zlib",
         "--with-opengl",
         "--with-regex=builtin",
